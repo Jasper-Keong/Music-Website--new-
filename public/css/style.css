@@ -265,7 +265,7 @@ section h1 {
     text-align: center;
     padding-top: 15px;
     width: 600px;
-    height: 40%;
+    height: 50%;
     margin: 15vh auto;
     background-color: rgba(0,0,0,0.8);
     box-shadow: 0 0 15px rgb(255, 255, 255);
@@ -299,4 +299,13 @@ section h1 {
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
+}
+
+/*About Button*/
+.translateBtn {
+    background: black;
+    margin-top: 1%;
+    height: 45px;
+    width: 225px;
+    color: white;
 }
