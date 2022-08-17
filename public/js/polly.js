@@ -8,13 +8,12 @@ function textToSpeech() {
 
         let url = "https://ndzud7qq0k.execute-api.ap-southeast-1.amazonaws.com/default/poly-text-to-speech";
         url += "?voice=" + encodeURIComponent(elemVoice.value);
-        url += "&text=" + encodeURIComponent(elemText.value);
+        url += "&text=" + encodeURIComponent(elemText.textContent);
 
         const elemAudio = document.createElement("AUDIO");
         document.body.appendChild(elemAudio);
         elemAudio.controls = true;
         elemAudio.src = url;
         elemAudio.play();
-
-    })
+    });
 }

@@ -309,3 +309,9 @@ section h1 {
     width: 225px;
     color: white;
 }
+
+/*Text To Speech*/
+.audio {
+    display: block;
+    margin-top: 20px;
+}
